@@ -83,7 +83,11 @@ DATABASES = {
         'USER': 'matiasmazparrotefeliu',
         'PASSWORD': 'francia1992',
         'HOST': 'postgresql-matiasmazparrotefeliu.alwaysdata.net',
-        'PORT': 5432
+        'PORT': 5432,
+        'TEST': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        },
     }
 }
 
