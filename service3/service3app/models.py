@@ -6,3 +6,6 @@ class Products(models.Model):
     purchase_price = models.IntegerField()
     sale_price = models.IntegerField()
     description = models.TextField()
+
+    class Meta:
+        ordering = ['code']
