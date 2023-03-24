@@ -1,0 +1,21 @@
+{
+  "name": "prueba-tecnica-ieb",
+  "version": "1.0.0",
+  "description": "***\r A list of technologies used within the project:\r * [Python](https://www.python.org/): Version 3.10.0 \r * [Django](https://www.djangoproject.com/): Version 4.0\r * [Django Rest Framework](https://www.django-rest-framework.org/): Version 3.14.0",
+  "main": "socket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node socket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasfeliu92/technical_interview_challenge_IEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasfeliu92/technical_interview_challenge_IEB/issues"
+  },
+  "homepage": "https://github.com/matiasfeliu92/technical_interview_challenge_IEB#readme"
+}
