@@ -22,4 +22,5 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver (to start the application)
 $ npm start (start socket connection, make http request for get data of product)
+$ pytest ./service3app/tests.py (make testing of api endpoints)
 ```

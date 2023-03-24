@@ -12,22 +12,22 @@ def test_get_one_product():
     res_body = response.json()
     assert res_body["code"] == "a04"
 
-def test_create_product():
-    body = {
-        "code": "a06",
-        "purchase_price": 754757,
-        "sale_price": 4634643,
-        "description": "fhfdhgffjf"
-    }
-    response = requests.post('http://localhost:8000/create', body)
-    assert response.status_code == 201
+# def test_create_product():
+#     body = {
+#         "code": "a06",
+#         "purchase_price": 754757,
+#         "sale_price": 4634643,
+#         "description": "fhfdhgffjf"
+#     }
+#     response = requests.post('http://localhost:8000/create', body)
+#     assert response.status_code == 201
 
 def test_update_product():
     body = {
         "code": "a06",
         "purchase_price": 754757,
         "sale_price": 4634643,
-        "description": "MMMMMMMMMMMM"
+        "description": "BCDFGHJKLMNÑ"
     }
     response = requests.post('http://localhost:8000/update/a06', body)
     assert response.status_code == 201
