@@ -2,7 +2,7 @@
 GET http://127.0.0.1:8000/products HTTP/1.1
 
 ### GET ONE PRODUCT
-GET http://127.0.0.1:8000/products/a04 HTTP/1.1
+GET http://127.0.0.1:3000/product/a19 HTTP/1.1
 
 ### CREATE NEW PRODUCT
 POST http://127.0.0.1:8000/create HTTP/1.1
