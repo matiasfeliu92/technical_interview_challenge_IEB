@@ -21,6 +21,6 @@ $ IEB/Scripts/activate (to activate virtual env)
 $ pip install -r requirements.txt
 $ npm install
 $ python manage.py runserver (start connection with service 3)
-$ python service1.py (start connection with service 1, to make http request for get data of product)
+$ python service1.py (start connection with service 1, "http://localhost:3000/product/{code}" to make http request for get data of one product)
 $ pytest ./service3app/tests.py (make testing of api endpoints)
 ```
