@@ -2,3 +2,4 @@ IEB
 __pycache__
 main_script.py
 docker-instructions.txt
+sockets/
